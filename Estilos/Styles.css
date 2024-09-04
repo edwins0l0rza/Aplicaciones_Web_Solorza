@@ -4,6 +4,7 @@ body {
         }
 
         /* Pregunta: ¿Cómo se centra un div dentro de su contenedor padre horizontalmente? */
+/*utilizando la etiqueta margin o la etiqueta display flex*/ 
         #container {
             width: 50%;
             margin: 0 auto;
@@ -14,6 +15,7 @@ body {
         }
 
         /* Pregunta: ¿Cuál es la diferencia entre 'id' y 'class' en CSS? */
+/*El ID es un dentificador unico y la CLASS se puede utilizar para multiples elementos en HTML*/
         .button {
             display: inline-block;
             padding: 10px 20px;
