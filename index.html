@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PRIMERA PÁGINA</title>
+    <link rel="stylesheet" href="CSS/styles.css"> <!-- Enlace al stylsheet de la página (completar) -->
+    <div style="text-align: center;">
+    
+    </div>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <DIV class="encabezado">
+        <nav>
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#quienesomos">QUIENES SOMOS</a></li>
+                <li><a href="#productos">PRODUCTOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <div class="slider">
+            <img src="assets/images/slider/portada1.jpg" alt="portada1" class="slide active">
+            <img src="assets/images/slider/portada2.jpg" alt="portada2" class="slide active">
+            <img src="assets/images/slider/portada3.jpg" alt="portada3" class="slide active">
+            <img src="assets/images/slider/portada4.jpg" alt="portada4" class="slide active">
+        </div>
+    </DIV>
+        <!--conexion con archivo js-->
+        <script src="assets/scripts/slider.js"></script>
+
+    <!-- Sección principal -->
+    <section id="inicio">
+        <h1>ELECTROCOD</h1>
+        <p>
+            ElectroCod es tu destino confiable para la mejor tecnología y electrónica de última generación. Nos especializamos en ofrecer una amplia gama de productos, desde dispositivos móviles, computadoras y accesorios, hasta electrodomésticos innovadores que harán tu vida más fácil. En ElectroCod, combinamos calidad, precios competitivos y un servicio al cliente excepcional para garantizar que encuentres exactamente lo que necesitas, ya seas un entusiasta de la tecnología o simplemente busques una solución para el hogar o la oficina. ¡Descubre lo último en tecnología con nosotros!
+        </p>
+    </section>
+
+    <!-- Sección "Sobre mí" -->
+    <section id="quienesomos">
+        <h2>SOBRE NOSOTROS</h2>
+        <ul>
+            <li>Ofrecemos dispositivos de calidad</li>
+            <li>Tenemos la mas alta gama de dispositivos</li>
+            <li>Genialidad, moda y actualizaciones</li>
+        </ul>
+    </section>
+
+    <!--productos-->
+        <section id="productos">
+            <div class="galeria">
+                <div class="producto">
+                    <img src="assets/images/lap.jpg" alt="Producto1">
+                    <h3>Laptop Gamer ACOX-23</h3>
+                    <p>La Laptop Gamer ACOX-23 combina potencia y gráficos avanzados con un procesador de última generación, pantalla de 144Hz y sistema de refrigeración. Ideal para juegos intensos y multitarea.</p>
+                    <button onclick="window.location.href='compras.html'">COMPRAR</button>
+                </div>
+            
+       
+
+        
+            
+                <div class="producto">
+                    <img src="assets/images/mic.jpg" alt="Producto2">
+                    <h3>Microfono SIXT-34</h3>
+                    <p>El Micrófono Gamer SIXT-34 ofrece sonido claro y reducción de ruido, perfecto para streaming o partidas online con calidad profesional.</p>
+                    <button onclick="window.location.href='compras.html'">COMPRAR</button>
+                </div>
+            
+        
+
+       
+            
+                <div class="producto">
+                    <img src="assets/images/pc.jpg" alt="Producto3">
+                    <h3>PC Gamer RTX-25</h3>
+                    <p>La PC Gamer RTX-25 destaca por su procesador y tarjeta gráfica de alto rendimiento, diseño RGB y sistema de ventilación avanzado, ideal para juegos exigentes.</p>
+                    <button onclick="window.location.href='compras.html'">COMPRAR</button>
+                </div>
+            
+        
+
+        
+            
+                <div class="producto">
+                    <img src="assets/images/boc.webp" alt="Producto4">
+                    <h3>Bocinas Gamer WLX</h3>
+                    <p>Las Bocinas Gamer WLX ofrecen sonido envolvente 3D con graves potentes, mejorando la inmersión en cada partida.</p>
+                    <button onclick="window.location.href='compras.html'">COMPRAR</button>
+                </div>
+            
+       
+
+        
+            
+                <div class="producto">
+                    <img src="assets/images/mou.jpg" alt="Producto5">
+                    <h3>Mouse Gamer COD-X</h3>
+                    <p>El Mouse Gamer COD-X ofrece precisión y control total con varios niveles de DPI ajustables y diseño ergonómico con iluminación RGB.</p>
+                    <button onclick="window.location.href='compras.html'">COMPRAR</button>
+                </div>
+           
+       
+
+        
+            
+                <div class="producto">
+                    <img src="assets/images/tec.webp" alt="Producto6">
+                    <h3>Teclado Gamer COX-E</h3>
+                    <p>El Teclado Gamer COX-E tiene teclas mecánicas de respuesta rápida, anti-ghosting y retroiluminación RGB, ideal para largas sesiones de juego.</p>
+                    <button onclick="window.location.href='compras.html'">COMPRAR</button>
+                </div>
+            </div>
+        </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+        <h2>CONTACTO</h2>
+        <form action="#" method="post">
+            <label for="name">INGRESA TU NOMBRE:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">INGRESA TU CORREO ELECTRÓNICO:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">SI LO DESEAS, DEJA UN MENSAJE:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <br>
+            <input type="submit" value="SUBIR">
+        </form>
+    </section>
+</body>
+<br>
+<footer>Edwin Alfredo Solorza Ochoa UTD</footer>
+</html>
+    
