@@ -1,0 +1,58 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PRIMERA PÁGINA</title>
+    <link rel="stylesheet" href="CSS/styles.css"> <!-- Enlace al stylsheet de la página (completar) -->
+    <div style="text-align: center;">
+    
+    </div>
+</head>
+
+<!-- Barra de navegación -->
+<DIV class="encabezado">
+    <nav>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="#quienesomos">QUIENES SOMOS</a></li>
+            <li><a href="#productos">PRODUCTOS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <div class="slider">
+        <img src="assets/images/slider/portada1.jpg" alt="portada1" class="slide active">
+        <img src="assets/images/slider/portada2.jpg" alt="portada2" class="slide active">
+        <img src="assets/images/slider/portada3.jpg" alt="portada3" class="slide active">
+        <img src="assets/images/slider/portada4.jpg" alt="portada4" class="slide active">
+    </div>
+</DIV>
+<!--conexion con archivo js-->
+<script src="assets/scripts/slider.js"></script>
+<section id="contacto">
+    <h2>COMPRAS</h2>
+    <DIV class="compras">
+        <img src="assets/images/COMPRAS.jpg" alt="Producto1" >
+    </DIV>
+    <form action="#" method="post">
+        <p>DATOS PERSONALES</p>
+        <label for="name">NOMBRES:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="name">APELLIDOS:</label>
+        <input type="text" id="surname" name="surname" required>
+        <label for="name">DOMICILIO:</label>
+        <input type="text" id="location" name="location" required>
+        <br>
+        <label for="email">CORREO ELECTRÓNICO:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="opciones">METODO DE PAGO</label>
+        <select id="opciones" name="opciones">
+            <option value="opcion1">CREDITO</option>
+            <option value="opcion2">DEBITO</option>
+            
+        </select>
+        <br>
+        <br
+        <input type="submit" value="SUBIR">
+    </form>
+</section>
